@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import Container from "../Container";
 import Home from "../pages/Home";
 import Flex from "../Flex";
@@ -14,15 +14,15 @@ const Header = () => {
           <Flex className={'justify-between'}>
 
             <div className="">
-              <Images imgSrc={Logo} imgAlt={"Logo.png"}/>
+              <Images className={"w-[170px] cursor-pointer"} imgSrc={Logo} imgAlt={"Logo.png"}/>
             </div>
 
             <div className="">
-              <Menu className={"flex gap-x-[40px]"}>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Service</li>
-                <li>Works</li>
+              <Menu className={"flex gap-x-[50px]"}>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Home</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>About Us</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Service</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Works</li>
               </Menu>
             </div>
 
