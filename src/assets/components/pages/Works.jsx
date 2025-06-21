@@ -10,12 +10,12 @@ const Works = () => {
   return (
     <>
     <Container className={"py-[60px]"}>
-        <Flex className={"justify-between"}>
+        <Flex className={"justify-between inline sm:flex"}>
             <div className="">
-                <p className="text-[16px] font-medium text-btnCL">PORTFOLIO</p>
-                <p className="text-[44px] font-semibold">Selected Works.</p>
+                <p className="text-[16px] font-medium text-btnCL text-center sm:text-left">PORTFOLIO</p>
+                <p className="text-[44px] font-semibold text-center sm:text-left">Selected Works.</p>
             </div>
-            <div className="w-[557px]">
+            <div className="sm:w-[557px] text-center sm:text-left">
                 <p className='text-[19px] leading-[32px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</p>
             </div>
         </Flex>
