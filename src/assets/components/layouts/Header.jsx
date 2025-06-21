@@ -6,7 +6,11 @@ import Images from "../Images";
 import Logo from "../LOGO.png"
 import Menu from "../Menu";
 import Buttons from "../Buttons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
+
 const Header = () => {
+  
   return (
     <>
       <section>
@@ -18,7 +22,7 @@ const Header = () => {
             </div>
 
             <div className="">
-              <Menu className={"flex gap-x-[50px]"}>
+              <Menu className={"hidden sm:flex gap-x-[50px]"}>
                 <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Home</li>
                 <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>About Us</li>
                 <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Service</li>
@@ -26,8 +30,11 @@ const Header = () => {
               </Menu>
             </div>
 
-
-            <div className="">
+            <div className="sm:hidden">
+                <button className="navBtn"><FontAwesomeIcon className="text-[30px] cursor-pointer" icon={faBars}/></button>
+            </div>
+            
+            <div className="hidden sm:block">
               <Buttons btnText={"Hire Me"}/>
             </div>
 

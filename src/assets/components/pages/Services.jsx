@@ -21,11 +21,11 @@ const Services = () => {
           </div>
         </div>
 
-        <Flex className={"justify-between gap-x-[40px] mt-[60px]"}>
+        <Flex className={"justify-between gap-x-[40px] mt-[60px] inline sm:flex"}>
           <div className="py-[50px] px-[75px] rounded-2xl hover:shadow-xl/30 shadow-xl/20 cursor-pointer text-center">
             <Images className={"m-auto mb-[30px]"} imgSrc={Frame} />
             <h1 className="text-[20px] font-medium">UI/UX Design</h1>
-            <div className="w-[307px]">
+            <div className="w-[307px] m-auto">
                 <h1 className="text-[20px] mt-[20px]">lorem ipsum dolor sit amet consectur adi pising leo</h1>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Services = () => {
           <div className="py-[50px] px-[75px] rounded-2xl hover:shadow-xl/30 shadow-xl/20 cursor-pointer text-center">
             <Images className={"m-auto mb-[30px]"} imgSrc={Frame2} />
             <h1 className="text-[20px] font-medium">Product Design</h1>
-            <div className="w-[307px]">
+            <div className="w-[307px] m-auto">
                 <h1 className="text-[20px] mt-[20px]">lorem ipsum dolor sit amet consectur adi pising leo</h1>
             </div>
           </div>
@@ -41,7 +41,7 @@ const Services = () => {
           <div className="py-[50px] px-[75px] rounded-2xl hover:shadow-xl/30 shadow-xl/20 cursor-pointer text-center">
             <Images className={"m-auto mb-[30px]"} imgSrc={Frame} />
             <h1 className="text-[20px] font-medium">Motion Graphics</h1>
-            <div className="w-[307px]">
+            <div className="w-[307px] m-auto">
                 <h1 className="text-[20px] mt-[20px]">lorem ipsum dolor sit amet consectur adi pising leo</h1>
             </div>
           </div>

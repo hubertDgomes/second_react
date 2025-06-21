@@ -10,15 +10,15 @@ const Home = () => {
       <Container className={"py-[40px]"}>
         <Flex className={"justify-between"}>
           <div className="w-[521px]">
-            <p className="text-[19px] font-bold font-menuF text-btnCL">Hubert Dhrubo Gomes</p>
-            <h1 className="text-[60px] font-bold leading-[78px]">Hello, my name’s Hubert Gomes. I’m MERN Stack Developer.</h1>
+            <p className="text-[19px] font-bold font-menuF text-btnCL text-center sm:text-left">Hubert Dhrubo Gomes</p>
+            <h1 className="text-[60px] font-bold leading-[78px] text-center sm:text-left">Hello, my name’s Hubert Gomes. I’m MERN Stack Developer.</h1>
           </div>
-          <div className="w-[588px]">
+          <div className="w-[588px] hidden sm:block">
             <Images imgSrc={Photo}/>
           </div>
         </Flex>
           
-          <Flex className={"gap-x-[40px]"}>
+          <Flex className={"gap-x-[40px] justify-center sm:justify-start mt-[40px] sm:mt-[0]"}>
             <Buttons btnText={"Contact Me"}/>
             <p className="text-[18px] cursor-pointer font-menuF font-medium">Download CV</p>
           </Flex>
