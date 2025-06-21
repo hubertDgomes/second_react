@@ -6,6 +6,9 @@ import Counter from "./assets/components/layouts/Counter";
 import Services from "./assets/components/pages/Services";
 import GFXDeg from "./assets/components/pages/GFXDeg";
 import Works from "./assets/components/pages/Works";
+import Testimony from "./assets/components/pages/Testimony";
+import Contact from "./assets/components/pages/Contact";
+import Footer from "./assets/components/layouts/Footer";
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
     <Services/>
     <GFXDeg/>
     <Works/>
+    <Testimony/>
+    <Contact/>
+    <Footer/>
     </>
   );
 }
