@@ -1,7 +1,8 @@
 import React from 'react'
 import Container from '../Container'
 import Buttons from '../Buttons'
-
+import Images from '../Images'
+import Slide from "../../section.png"
 const GFXDeg = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const GFXDeg = () => {
             <h1 className="text-[20px] leading-[32px] mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</h1>
         </div>
         <Buttons className={"mt-[20px]"} btnText={"CONTACT ME"}/>
+        <Images className={"mt-[100px] m-auto"} imgSrc={Slide}/>
     </Container>
     </>
   )

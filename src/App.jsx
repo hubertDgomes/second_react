@@ -5,6 +5,7 @@ import Header from "./assets/components/layouts/Header";
 import Counter from "./assets/components/layouts/Counter";
 import Services from "./assets/components/pages/Services";
 import GFXDeg from "./assets/components/pages/GFXDeg";
+import Works from "./assets/components/pages/Works";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Counter/>
     <Services/>
     <GFXDeg/>
+    <Works/>
     </>
   );
 }
