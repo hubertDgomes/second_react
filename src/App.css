@@ -7,3 +7,20 @@
   --color-kala: #333333;
   --font-menuF: "Poppins", "sans-serif"; 
 }
+
+.custom-cursor{
+  cursor: url('assets/icon34.png'), auto;
+  z-index: 1111111111111111;
+}
+.custom-cursor3{
+  cursor: url('assets/icon44.png'), auto;
+  z-index: 1111111111111111;
+}
+.custom-contact{
+  cursor: url('assets/contact.png'), auto;
+  z-index: 1111111111111111;
+}
+.custom-task{
+  cursor: url('assets/tasx.png'), auto;
+  z-index: 1111111111111111;
+}

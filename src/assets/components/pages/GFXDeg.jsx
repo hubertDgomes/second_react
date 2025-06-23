@@ -15,7 +15,7 @@ const GFXDeg = () => {
           <h1 className="text-[20px] leading-[32px] mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit velit, at dictum nisl.</h1>
         </div>
         <div className="flex justify-center sm:justify-start mt-[20px]">
-          <Buttons btnText={"CONTACT ME"} />
+          <Buttons className={"custom-contact"} btnText={"CONTACT ME"} />
         </div>
         <Images className={"mt-[100px] m-auto"} imgSrc={Slide} />
       </Container>
