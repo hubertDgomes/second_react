@@ -20,7 +20,7 @@ const Home = () => {
           
           <Flex className={"gap-x-[40px] justify-center sm:justify-start mt-[40px] sm:mt-[0]"}>
             <Buttons className={"custom-contact"} btnText={"Contact Me"}/>
-            <p className="text-[18px] rounded-2xl cursor-pointer font-medium hover:py-[19px] hover:px-[28px] hover:text-white hover:bg-btnCL hover:rounded-[50px] transition-all duration-500">Download CV</p>
+            <p className="text-[18px] rounded-2xl custom-down font-medium hover:py-[19px] hover:px-[28px] hover:text-white hover:bg-btnCL hover:rounded-[50px] transition-all duration-500">Download CV</p>
           </Flex>
       </Container>
     </>

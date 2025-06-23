@@ -21,7 +21,7 @@ const Testimony = () => {
         </div>
 
         <Flex className={"justify-between mt-[30px]"}>
-          <div className="py-[42px] px-[53px] bg-white shadow-xl/20 w-[584px] rounded-[50px] scale-95 hover:scale-100 transition-all duration-1000 cursor-pointer">
+          <div className="py-[42px] px-[53px] bg-white shadow-xl/20 w-[584px] rounded-[50px] scale-95 hover:scale-100 transition-all duration-1000 custom-comm">
             <Images imgSrc={rate} />
             <p className="mt-[30px] text-[18px] font-medium">
               Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.
@@ -45,7 +45,7 @@ const Testimony = () => {
 
 
 
-          <div className="py-[42px] px-[53px] bg-white shadow-xl/20 w-[584px] rounded-[50px] scale-95 hover:scale-100 transition-all duration-1000 cursor-pointer">
+          <div className="py-[42px] px-[53px] bg-white shadow-xl/20 w-[584px] rounded-[50px] scale-95 hover:scale-100 transition-all duration-1000 custom-comm">
             <Images imgSrc={rate} />
             <p className="mt-[30px] text-[18px] font-medium">
               Nulla nunc orci, suscipit vitae rutrum vitae, sagittis eget dui.

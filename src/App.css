@@ -24,3 +24,11 @@
   cursor: url('assets/tasx.png'), auto;
   z-index: 1111111111111111;
 }
+.custom-comm{
+  cursor: url('assets/comment.png'), auto;
+  z-index: 1111111111111111;
+}
+.custom-down{
+  cursor: url('assets/down1.png'), auto;
+  z-index: 1111111111111111;
+}
