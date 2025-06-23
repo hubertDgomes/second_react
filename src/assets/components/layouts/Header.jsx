@@ -23,10 +23,10 @@ const Header = () => {
 
             <div className="">
               <Menu className={"hidden sm:flex gap-x-[50px]"}>
-                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Home</li>
-                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>About Us</li>
-                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Service</li>
-                <li className={"hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Works</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Home</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>About Us</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Service</li>
+                <li className={"hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Works</li>
               </Menu>
             </div>
 

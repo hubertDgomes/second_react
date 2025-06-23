@@ -30,10 +30,10 @@ const Footer = () => {
             <Flex className={"justify-between"}>
                
             <Flex className={"gap-x-[20px] mt-[60px]"}>
-                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Home</li>
-                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>About Us</li>
-                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Service</li>
-                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-700 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Works</li>
+                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Home</li>
+                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>About Us</li>
+                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Service</li>
+                <li className={"text-white hover:font-bold hover:text-[20px] transition-all duration-400 hover:bg-btnCL hover:rounded-2xl hover:px-[20px] hover:text-white"}>Works</li>
             </Flex>
 
             <p className='mt-[50px] text-white'>© All Right Reserved</p>

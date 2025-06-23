@@ -21,7 +21,7 @@ const Works = () => {
         </Flex>
 
         <Flex className={"mt-[40px] flex-wrap justify-around gap-y-[40px]"}>
-            <div className="">
+            <div className="scale-95 hover:scale-100 transition-all duration-1000 cursor-pointer">
                 <div className="h-[360px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                     <Images imgSrc={creative}/>
                 </div>
@@ -34,7 +34,7 @@ const Works = () => {
             </div>
 
 
-            <div className="">
+            <div className="scale-95 hover:scale-100 transition-all duration-1000 cursor-pointer">
                 <div className="h-[340px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                 <Images imgSrc={hubert}/>
                 </div>
@@ -46,7 +46,7 @@ const Works = () => {
             </div>
 
 
-            <div className="">
+            <div className="scale-95 hover:scale-100 transition-all duration-1000 cursor-pointer">
                 <div className="h-[340px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                     <Images imgSrc={furino}/>
                 </div>
@@ -58,7 +58,7 @@ const Works = () => {
             </div>
 
 
-            <div className="">
+            <div className="scale-95 hover:scale-100 transition-all duration-1000 cursor-pointer">
                 <div className="h-[310px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                 <Images imgSrc={tech}/>
                 </div>
