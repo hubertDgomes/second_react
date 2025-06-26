@@ -6,6 +6,7 @@ import creative from '../../cit.png'
 import hubert from '../../hubertP.png'
 import furino from '../../furino.png'
 import tech from '../../techedge.png'
+import { motion } from "motion/react"
 const Works = () => {
   return (
     <>
@@ -21,7 +22,13 @@ const Works = () => {
         </Flex>
 
         <Flex className={"mt-[40px] flex-wrap justify-around gap-y-[40px]"}>
-            <div className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
+
+            <motion.div 
+            whileHover={{
+                rotate:-5
+            }}
+            
+            className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
                 <div className="h-[360px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                     <Images imgSrc={creative}/>
                 </div>
@@ -31,10 +38,14 @@ const Works = () => {
                     <p className="text-[19px]">Home Page Design (Just Kidding)</p>
                     </div>
                 </div>
-            </div>
+            </motion.div>
 
 
-            <div className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
+            <motion.div
+            whileHover={{
+                rotate:5
+            }}
+            className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
                 <div className="h-[340px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                 <Images imgSrc={hubert}/>
                 </div>
@@ -43,10 +54,14 @@ const Works = () => {
                     <p className="text-[20px] font-medium">Portfolio</p>
                     <p className="text-[19px]">With Tailwind</p></div>
                 </div>
-            </div>
+            </motion.div>
 
 
-            <div className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
+            <motion.div
+            whileHover={{
+                rotate:-5
+            }}
+            className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
                 <div className="h-[340px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                     <Images imgSrc={furino}/>
                 </div>
@@ -55,10 +70,14 @@ const Works = () => {
                     <p className="text-[20px] font-medium">Furino</p>
                     <p className="text-[19px]">With vanila HTML and CSS</p></div>
                 </div>
-            </div>
+            </motion.div>
 
 
-            <div className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
+            <motion.div
+            whileHover={{
+                rotate:5
+            }}
+            className="scale-95 hover:scale-100 transition-all duration-1000 custom-task">
                 <div className="h-[310px] w-[583px] bg-blue-300 rounded-t-[30px] shadow-xl/20">
                 <Images imgSrc={tech}/>
                 </div>
@@ -67,7 +86,7 @@ const Works = () => {
                     <p className="text-[20px] font-medium">TechEdge</p>
                     <p className="text-[19px]">With Bootstrap</p></div>
                 </div>
-            </div>
+            </motion.div>
         </Flex>
     </Container>
     </>

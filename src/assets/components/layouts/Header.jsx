@@ -8,11 +8,16 @@ import Menu from "../Menu";
 import Buttons from "../Buttons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
-
+import { motion, useScroll } from "motion/react"
 const Header = () => {
   
   return (
     <>
+    <motion.div 
+    style={{
+      scaleX: useScroll().scrollYProgress
+    }}
+    className="h-[20px] w-full origin-left bg-amber-800 fixed z-[9999999999]  "></motion.div>
       <section>
         <Container className="py-[70px]">
           <Flex className={'justify-between'}>

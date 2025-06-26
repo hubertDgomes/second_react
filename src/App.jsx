@@ -13,11 +13,7 @@ import { motion, useScroll } from "motion/react"
 function App() {
   return (
     <>
-    <motion.div 
-    style={{
-      scaleX: useScroll().scrollYProgress
-    }}
-    className="h-[20px] w-full origin-left bg-amber-800 fixed z-[9999999999]  "></motion.div>
+    
     <Header/>
     <Home/>
     <Counter/>
