@@ -9,11 +9,15 @@ import Works from "./assets/components/pages/Works";
 import Testimony from "./assets/components/pages/Testimony";
 import Contact from "./assets/components/pages/Contact";
 import Footer from "./assets/components/layouts/Footer";
-
-
+import { motion, useScroll } from "motion/react"
 function App() {
   return (
     <>
+    <motion.div 
+    style={{
+      scaleX: useScroll().scrollYProgress
+    }}
+    className="h-[20px] w-full origin-left bg-amber-800 fixed z-[9999999999]  "></motion.div>
     <Header/>
     <Home/>
     <Counter/>
